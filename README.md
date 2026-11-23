@@ -1,5 +1,9 @@
 # ⚡ Universal AI PC Overclocking & Telemetry Master Prompt
 
+<p align="center">
+  <b>🌍 Language / اللغة:</b> &nbsp; <b>English</b> &nbsp;|&nbsp; <a href="./README.ar.md"><b>العربية (النسخة العربية الكاملة)</b></a>
+</p>
+
 [![Platform](https://img.shields.io/badge/OS-Windows%2010%20%2F%2011-0078D6?style=for-the-badge&logo=windows)](https://www.microsoft.com/windows)
 [![Hardware](https://img.shields.io/badge/Hardware-AMD%20%7C%20Intel%20%7C%20NVIDIA%20%7C%20Radeon%20%7C%20Arc-76B900?style=for-the-badge)](https://github.com)
 [![Telemetry](https://img.shields.io/badge/Telemetry-HWiNFO64%20CSV-orange?style=for-the-badge)](https://www.hwinfo.com/)
@@ -18,19 +22,6 @@ Most "overclock my PC" prompts dump generic, outdated, or unsafe BIOS guesses. T
 - **Live Online Research:** Checks the latest stable BIOS, Chipset/GPU drivers, up-to-date tools (preventing stale `winget` installs), and current safe voltage ceilings for your exact hardware generation.
 - **HWiNFO64 as Single Source of Truth:** Uses unified **HWiNFO64 CSV telemetry** across all phases to detect silent **CPU Clock Stretching** (Core vs Effective Clock), **VRAM ECC Regression** (GDDR6X/GDDR7), **VRM & Memory Junction Temps**, **12VHPWR voltage**, and **WHEA / Event Viewer TDR errors**.
 - **Strict Isolation & Safety Guardrails:** Never tunes RAM and CPU (or GPU Core and Memory) simultaneously; never touches registry "FPS hacks" or flashes BIOS/VBIOS; never enables OC at Windows startup until final stress validation passes with **0 errors**.
-
-<details>
-<summary><b>🇸🇦 نبذة سريعة بالعربي (اضغط للفتح)</b></summary>
-
-هذا البرومت يحوّل أي وكيل ذكاء اصطناعي يعمل على جهازك (مثل **Antigravity** أو غيره) إلى مهندس هاردوير وكسر سرعة يقودك خطوة بخطوة وبأمان تام عبر **6 مراحل**:
-1. فحص مواصفات جهازك تلقائياً + البحث عن أحدث BIOS والتعريفات + جلب **كتيب المذربورد الرسمي (`PDF`)**.
-2. فحص البرامج وتثبيت الأدوات اللازمة وأهمها **`HWiNFO64`** كمرجع أساسي موحّد للقراءات.
-3. تسجيل قراءات ونقاط الأداء الأصلية (`Stock Baseline`) قبل أي تعديل.
-4. ضبط الـ BIOS بشكل معزول: **الرامات أولاً (4A)** ثم **المعالج ثانياً (4B)** بأسماء القوائم الحرفية من الكتيب.
-5. فحص صحة Windows وخدمات الشيبست الأصلية وإنشاء سكربت متابعة بعد تحديثات النظام.
-6. كسر سرعة كرت الشاشة خطوة بخطوة (الطاقة ← المعالج ← الذاكرة مع كشف أخطاء `ECC`) واختبار ثبات نهائي وفحص `Event Viewer` قبل تفعيل التشغيل التلقائي.
-
-</details>
 
 ---
 
